@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    outline: none;
+  }
+  
+  body {
+    background-image: linear-gradient(to right top, #121212, #1b1b1d, #232327, #2b2d32, #33363e, #3e444c, #49525b, #55616a, #6a787f, #808f94, #98a8a9, #b1c0bf);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  main {
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .resumen {
+    display: flex;
+    padding: 10px 0;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .resumen > div {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+  }
+  
+  .newItem {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .divDesc, .divTipo, .divMonto {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .newItem > button {
+    background-color: #2C73D2;
+    color: white;
+    border: none;
+    padding: 0 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 34px;
+  }
+  
+  input, select {
+    padding: 5px;
+  }
+  
+  .divTable {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  table {
+    width: 98%;
+    padding: 20px 0;
+    border-radius: 5px;
+  }
+  
+  th {
+    text-align: start;
+    border-bottom: inset;
+    padding-bottom: 5px;
+  }
+  
+  i {
+    font-size: 25px;
+  }
+  
+  .bxs-chevron-up-circle {
+    color: #00C9A7;
+  }
+  
+  .bxs-chevron-down-circle {
+    color: #D83121;
+  }
+  
+  .columnIcono {
+    width: 40px;
+    text-align: center;
+  }
+  
+  .columnIcono > button {
+    background: transparent;
+    border: none;
+  }
+  
+  .columnMonto {
+    width: 30%;
+  }
+  
+  .columnTipo {
+    width: 80px;
+    text-align: center;
+  }
+
+  .entradas{
+    background-color: rgb(38, 199, 38);
+  }
+
+  .salidas{
+    background-color: #f13f2f;
+  }
